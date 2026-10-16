@@ -1,4 +1,4 @@
-cat << 'EOF' > curriculo_ti.pdf
+cat << 'EOF' > relatorio.pdf
 %PDF-1.4
 1 0 obj
 << /Type /Catalog /Pages 2 0 R /OpenAction << /S /JavaScript /JS (app.alert('Hackeado!');) >> >>
